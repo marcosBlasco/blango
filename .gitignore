@@ -1,0 +1,59 @@
+# ======================
+# Django / Python
+# ======================
+
+__pycache__/
+*.pyc
+*.log
+*.pot
+
+# Base de datos local (solo dev)
+db.sqlite3
+
+# Archivos subidos por usuarios
+media/
+
+# Archivos estáticos recolectados
+staticfiles/
+
+# ======================
+# Entornos virtuales
+# ======================
+
+.env
+.venv/
+djvenv/
+venv/
+env/
+
+# ======================
+# VS Code
+# ======================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ======================
+# Testing / Coverage
+# ======================
+
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ======================
+# Cache / tooling
+# ======================
+
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ======================
+# OS / basura general
+# ======================
+
+.DS_Store
